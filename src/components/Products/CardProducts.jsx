@@ -16,7 +16,7 @@ const CardProducts = (props) => {
   return (
     <>
       <Link
-        to={`${import.meta.env.NETLIFY_URL}/productos/${props.to}`}
+        to={`https://whimsical-zuccutto-8ade1b.netlify.app/productos/${props.to}`}
         style={{textDecoration: "none"}}
       >
         <Card
