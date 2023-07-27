@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+a{
+    color: inherit;
+}
+.inactive{
+    color: #fff;
+    text-decoration: none;
+}
+.inactive:hover{
+    color: #00ff00;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.active{
+    color: #00ff00;
+    text-underline-offset: 3px;
+}
+.inactiveMobile{
+    color: #000000;
+    text-decoration: none;
+}
+.activeMobile{
+    text-underline-offset: 3px;
+    color: #3d0079;
+}
+.slideText{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-30%, -50%);    
+}
+a:hover{
+    text-decoration: none;
+    transition: all 0.5s ease;
+    scale: 1.1;
+}
