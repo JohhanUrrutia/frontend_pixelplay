@@ -16,7 +16,7 @@ const CardProducts = (props) => {
   return (
     <>
       <Link
-        to={`${import.meta.env.NETLIFY_URL}/products/${props.to}`}
+        to={`${import.meta.env.NETLIFY_URL}/productos/${props.to}`}
         style={{textDecoration: "none"}}
       >
         <Card
